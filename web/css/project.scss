@@ -1,7 +1,7 @@
 // Colors
 $background-color: #ece0e8;
-$color-primary-light: #ca3782;
-$color-primary-dark: #1e0b36;
+$color-primary-light: #0074D9;
+$color-primary-dark: #001F3F;
 $color-black: #000;
 $color-gray-dark: #aaa;
 $color-gray-light: #eee;
@@ -81,6 +81,7 @@ body {
   padding: 4rem;
   height: 100%;
   position: relative;
+  justify-content: space-between;
 
   @include respond(phone) {
     padding: 1rem;
@@ -94,7 +95,7 @@ body {
   width: 48rem;
   -moz-perspective: 200rem;
   perspective: 200rem;
-  margin: 2rem;
+  margin: 5rem;
 
   &__side {
     height: 52rem;
